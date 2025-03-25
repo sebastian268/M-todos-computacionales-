@@ -90,6 +90,55 @@ A pesar de tener varios estados de aceptación, no hay ambigüedades.
 
 ![image](https://github.com/user-attachments/assets/8faa5443-52cc-446a-bada-f1778f9d3ec4)
 
+```
+# Definir las transiciones del autómata como un diccionario
+transiciones = {
+    ('a', 'b'): 'b',
+    ('b', 'a'): 'c',
+    ('c', 'l'): 'd',
+    ('d', 'r'): 'e',
+    ('e', 'o'): 'f',
+    ('f', 'g'): 'g',
+    ('b', 'e'): 'k',
+    ('k', 'l'): 'l',
+    ('l', 'e'): 'm',
+    ('m', 'g'): 'g',
+    ('c', 'r'): 'i',
+    ('i', 'a'): 'j',
+    ('j', 'd'): 'g',
+    ('c', 'n'): 'h',
+    ('h', 'd'): 'g'
+}
+
+# Definir los estados finales
+estados_finales = {'g', 'i'}
+
+# Función principal del autómata
+def automata(lista, estado_actual='a'):
+    if not lista:  # Si no hay más símbolos en la lista
+        if estado_actual in estados_finales:
+            print("Dentro del lenguaje")
+            return True
+        else:
+            print("Fuera del lenguaje")
+            return False
+
+    simbolo = lista[0]  # Extrae el primer símbolo
+    resto = lista[1:]  # Resto de la lista
+
+    if (estado_actual, simbolo) in transiciones:  # Verifica si hay transición
+        estado_siguiente = transiciones[(estado_actual, simbolo)]
+        return automata(resto, estado_siguiente)
+    
+    print("Fuera del lenguaje")
+    return False  # No hay transición válida
+
+# Solicitar la entrada del usuario
+entrada = input("Ingresa una secuencia de caracteres sin espacios: ")
+resultado = automata(list(entrada))  # Convierte la cadena en una lista de caracteres
+
+```
+
 (OpenAI, 2025)
 
 Aunque el código se ve un poco más complejo y con más lineas de código, la complejidad del sistema se mantiene en O(n) debido a que las iteraciones se siguen realizando una por una y se mantiene una complejidad de O(1) durante todas estas. Por lo que una vez más puedo se puede afirmar que el rendimiento del algoritmo depende totalmente de la longitud de la palabra que recibe.
