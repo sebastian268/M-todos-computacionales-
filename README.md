@@ -83,9 +83,12 @@ A pesar de tener varios estados de aceptación, no hay ambigüedades.
 
 # Fuentes de información 
 
-Cano, I. R. (2022, 26 octubre). ¿Qué son las Expresiones regulares? (RegEx) - Viewnext.com. Viewnext.com. https://www.viewnext.com/que-son-las-expresiones-regulares-regex/
-colaboradores de Wikipedia. (2019, 12 julio). Autómata finito determinista. Wikipedia, la Enciclopedia Libre. https://es.wikipedia.org/wiki/Aut%C3%B3mata_finito_determinista
+Cano, I. R. (2022, 26 octubre). ¿Qué son las Expresiones regulares? (RegEx) - Viewnext.com. Viewnext.com. https://www.viewnext.com/que-son-las-expresiones-regulares-regex
+
+colaboradores de Wikipedia. (2019, 12 julio). Autómata finito determinista.Wikipedia, la Enciclopedia Libre. https://es.wikipedia.org/wiki/Aut%C3%B3mata_finito_determinista
+
 colaboradores de Wikipedia. (2024, 20 diciembre). Sindarin. Wikipedia, la Enciclopedia Libre. https://es.wikipedia.org/wiki/Sindarin
+
 Equipo editorial de IONOS. (2023, 21 julio). RegEx en Python: cómo funcionan las expresiones regulares en el popular lenguaje de programación. IONOS Digital Guide. https://www.ionos.mx/digitalguide/paginas-web/desarrollo-web/regex-en-python/
 
 
