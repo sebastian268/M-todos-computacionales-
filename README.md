@@ -143,6 +143,11 @@ resultado = automata(list(entrada))  # Convierte la cadena en una lista de carac
 
 Aunque el código se ve un poco más complejo y con más lineas de código, la complejidad del sistema se mantiene en O(n) debido a que las iteraciones se siguen realizando una por una y se mantiene una complejidad de O(1) durante todas estas. Por lo que una vez más puedo se puede afirmar que el rendimiento del algoritmo depende totalmente de la longitud de la palabra que recibe.
 
+# Conclusiones
+
+En este trabajo, pude primero poner en práctica la implementación de un autómata para la validación de palabras dentro de un alfabeto; sin embargo tambien pude confirmar que todo autómata de este tipo tiene su igual pero representado mediante una expresión regular, comprobando así la afirmación de que autómata = regex.
+Por lo que gracias a este trabajo puedo afirmar sin lugar a dudas que cualquier lenguaje reconocible por un autómata finito puede describirse mediante una expresión regular y que obviamente se puede realizar un proceso inverso.
+
 # Fuentes de información 
 
 Cano, I. R. (2022, 26 octubre). ¿Qué son las Expresiones regulares? (RegEx) - Viewnext.com. Viewnext.com. https://www.viewnext.com/que-son-las-expresiones-regulares-regex
