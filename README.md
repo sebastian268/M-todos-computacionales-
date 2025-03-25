@@ -4,7 +4,7 @@ Sebastián Acosta Marín - A01278278
 # Descripción 
 La opción que elegí fue la opción número 17, en la cual son un total de 5 palabras que tienen su origen en el "sindarin"; El cúal según wikipedia (2024) es un lenguaje ficitico creado por J. R. R. Tolkien, el cual hace aparcioón en todas sus historias ambientadas en su mundo de ficción de tierra media.
 
-# Palabra de la opción número 17 (y su significado)
+# Palabras de la opción número 17 (y su significado)
 Las palabras que seleccione dentro de la opción número 17 son las siguientes 5 palabras:
 - Balrog - Palabra sindarin para 'demonio de poder'.
 - Band - Palabra sindarin para - 'prisión, coacción'.
@@ -17,9 +17,15 @@ Considerando estas palabras, elaboré un autómata que aceptara únicamente esta
 # ¿Qué tipo de autómata es? 
 
 Mi autómata es del tipo AFD (Autómata Finito Determinista) el cual como su nombre lo indica es determinista y no da lugar a ambigüedades; esto se debe a que por cada estado en el que se encuentre el automata, solo existe un movimiento de cambio posible con un simbolo, es decir, no existen diferente movimientos con el mismo simbolo o caracter.
-
 **"para cada estado en que se encuentre el autómata, y con cualquier símbolo del alfabeto leído, existe siempre no más de una transición posible desde ese estado y con ese símbolo."** (colaboradores de Wikipedia, 2019)
 
+# Alfabeto del autómata 
+Algo que considero que es importante tomar en cuenta en la implemtación del autómata es que este sola y únicamente funciona con el siguiente alfabeto:
+Σ = a,b,d,e,g,l,n,o,r 
+
+# Autómata diseñado 
+
+![image](https://github.com/user-attachments/assets/e0ac8f5b-2603-40cb-b858-76bf188cb99e)
 
 
 
