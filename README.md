@@ -69,6 +69,12 @@ los cambiós que relaice en el código base fueron los dos siguientes:
 - El segundo cambio fue que sustituí la función "re.search" por "re.fullmatch" para que las palabras solo coincidan cuando se analicen de manera completa. (Evitando asi que de casos positivos solo por que contenga la combinanción en alguna parte de la cadena)
 
 
+# Análisis 
+
+# Complejidad del sistema.
+
+
+
 
 
 
