@@ -37,6 +37,9 @@ Siguiendo esta regla establecida, se procede a estbalecer todos los cambios de e
 
 Posteriormente se definen cuales son los estados de aceptación mediante la nomeclatura "final(caracter)" para establecer cuales son los estados en los que el autómata tiene un proceso de éxito, es decir, aquellos estados en los que, al terminar de procesar toda la cadena de entrada, el autómata acepta la palabra como válida. Esto significa que si, al finalizar el recorrido de la secuencia de símbolos, el autómata termina en uno de estos estados de aceptación, la cadena es considerada parte del lenguaje reconocido por el autómata.
 
+Para inicializar el procedimieto utilice las lineas de comando de "automata(Lista)" y "aux_automata(Lista, a)" el cual establece la lista de caracteres que se evaluaran y de igual manera establece que estado inicial de autómata es el etsado "a"
+Después se define el caso base, el cual es si la lista de entrada está vacía y el estado actual es "final" el autómata acepta la cadena como válida e imprime en la consola la frase de 'Dentro del lenguaje'; además de eso se define el caso recursivo el cual toma el primer símbolo de la lista y busca un cambio de estado válido mediante la funcion "move" en caso de encontrar un cambio de estado valido, el autómata avanza al siguiente estado y continúa el proceso con el resto de la lista, hasta finalizar con la cadena y verfiicar si termina en un estado de aceptación 
+
 
 
 
