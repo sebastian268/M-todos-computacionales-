@@ -75,6 +75,18 @@ los cambiós que relaice en el código base fueron los dos siguientes:
 
 El sistema tiene un nivel de complejidad de **O(n)** debido a que en este, a pesar de la recursión, siempre realiza las iteraciones caracter por caracter, por lo que realiza una función a la vez, es decir, solo procesa un elemento por iteración; Y al no haber ciclos dentro de otro ciclo no se generan múltiples llamadas simultáneas que incrementen la complejidad del sistema. Por lo que se podría decir que el rendimiento del algoritmo depende totalmente de la longitud de la lista que recibe la función y no de la cantidad de operaciones que tiene que realizar al mismo timpo.
 
+# ¿Por qué el automáta es determinista?
+
+No hay estados con múltiples transiciones con el mismo símbolo.
+
+A pesar de tener varios estados de aceptación, no hay ambigüedades. 
+
+# Fuentes de información 
+
+Cano, I. R. (2022, 26 octubre). ¿Qué son las Expresiones regulares? (RegEx) - Viewnext.com. Viewnext.com. https://www.viewnext.com/que-son-las-expresiones-regulares-regex/
+colaboradores de Wikipedia. (2019, 12 julio). Autómata finito determinista. Wikipedia, la Enciclopedia Libre. https://es.wikipedia.org/wiki/Aut%C3%B3mata_finito_determinista
+colaboradores de Wikipedia. (2024, 20 diciembre). Sindarin. Wikipedia, la Enciclopedia Libre. https://es.wikipedia.org/wiki/Sindarin
+Equipo editorial de IONOS. (2023, 21 julio). RegEx en Python: cómo funcionan las expresiones regulares en el popular lenguaje de programación. IONOS Digital Guide. https://www.ionos.mx/digitalguide/paginas-web/desarrollo-web/regex-en-python/
 
 
 
