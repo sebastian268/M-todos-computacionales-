@@ -40,6 +40,19 @@ Posteriormente se definen cuales son los estados de aceptación mediante la nome
 Para inicializar el procedimieto utilice las lineas de comando de "automata(Lista)" y "aux_automata(Lista, a)" el cual establece la lista de caracteres que se evaluaran y de igual manera establece que estado inicial de autómata es el etsado "a"
 Después se define el caso base, el cual es si la lista de entrada está vacía y el estado actual es "final" el autómata acepta la cadena como válida e imprime en la consola la frase de 'Dentro del lenguaje'; además de eso se define el caso recursivo el cual toma el primer símbolo de la lista y busca un cambio de estado válido mediante la funcion "move" en caso de encontrar un cambio de estado valido, el autómata avanza al siguiente estado y continúa el proceso con el resto de la lista, hasta finalizar con la cadena y verfiicar si termina en un estado de aceptación 
 
+# Pruebas del fincionamiento de la implementación 
+
+![image](https://github.com/user-attachments/assets/ba8ad02b-14eb-4550-a326-27f4503cd026)
+
+# Expresión regular 
+
+Sabiendo que todo autómata tambien puede ser representado mediante un expresión regular (Regex) y que se puede afirmar que un autómata puede ser igual a la expresión regular (autómata = regex) 
+Según Cano (2022) una expresión regular es "una cadena de texto génerica, que se usa a modo de patrón y que sirve para localizar trozos de texto dentro de otro texto mayor" 
+Tomando en cuenta que **autómata = regex** otra forma de representar el autómata que propuse es la siguiente: 
+
+**(^b)(a(r(ad)?|lrog)|and|eleg)**
+
+
 
 
 
