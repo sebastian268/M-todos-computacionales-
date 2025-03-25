@@ -12,7 +12,11 @@ Las palabras que seleccione dentro de la opción número 17 son las siguientes 5
 - Barad - significado 'torre'.
 - Beleg - significado 'poderoso'.
 
-Para representarlos utilice la 
+Considerando estas palabras, elaboré un autómata que aceptara únicamente estas cinco palabras como válidas y rechazar cualquier otra palabra; En este autómata cada palabra tiene un único camino posible, lo cual significa que cada movimiento está muy bien definido, y no existe lo que se conoce como ambigüedad,por lo que de está manera se logra reconocer exactamente las secuencias de caracteres correspondientes a "Balrog", "Band", "Bar", "Barad" y "Beleg" y nadá más.
+
+# ¿Qué tipo de autómata es? 
+
+Mi autómata es del tipo AFD (Autómata Finito Determinista)
 
 
 
