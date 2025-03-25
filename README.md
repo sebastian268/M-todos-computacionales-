@@ -27,6 +27,11 @@ Algo que considero que es importante tomar en cuenta en la implemtación del aut
 
 ![image](https://github.com/user-attachments/assets/e0ac8f5b-2603-40cb-b858-76bf188cb99e)
 
+# Implementación del autómata en prolog 
+
+![Captura de Pantalla 2025-03-25 a la(s) 0 40 21](https://github.com/user-attachments/assets/472b6df5-e2f4-44da-a39f-30180935a7eb)
+
+
 
 
 
