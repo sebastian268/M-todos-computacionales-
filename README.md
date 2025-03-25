@@ -31,7 +31,11 @@ Algo que considero que es importante tomar en cuenta en la implemtación del aut
 
 ![Captura de Pantalla 2025-03-25 a la(s) 0 40 21](https://github.com/user-attachments/assets/472b6df5-e2f4-44da-a39f-30180935a7eb)
 
+# Explicación de la implementación 
+La regla de los movimientos (cambios de estado) del autómata se encuntran definidos en la primera línea de código con el formato de "move (from,to,with)" por ejemplo, si la linea de código dice "move(a,b,b) significa que si el aútomata está en el estado "a", y recibe el simbolo "b" este hara un cambio de estado al estado "b"
+Siguiendo esta regla establecida, se procede a estbalecer todos los cambios de estado que pueden tomar lugar en el autómata. 
 
+Posteriormente se definen cuales son los estados de aceptación mediante la nomeclatura "final(caracter)" para establecer cuales son los estados en los que el autómata tiene un proceso de éxito, es decir, 
 
 
 
