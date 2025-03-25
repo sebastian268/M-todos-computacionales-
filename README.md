@@ -52,6 +52,13 @@ Tomando en cuenta que **autómata = regex** otra forma de representar el autóma
 
 **(^b)(a(r(ad)?|lrog)|and|eleg)**
 
+# Pruebas de la Expresión regular 
+
+![image](https://github.com/user-attachments/assets/5998be03-0a67-4883-8897-2540a992d0f1)
+
+
+
+
 
 
 
