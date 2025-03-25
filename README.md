@@ -83,6 +83,17 @@ No hay estados con múltiples transiciones con el mismo símbolo.
 
 A pesar de tener varios estados de aceptación, no hay ambigüedades. 
 
+
+# Misma solución, diferente lenguaje de programación
+
+**Código realizado con ayuda de chatGPT**
+
+![image](https://github.com/user-attachments/assets/8faa5443-52cc-446a-bada-f1778f9d3ec4)
+
+(OpenAI, 2025)
+
+Aunque el código se ve un poco más complejo y con más lineas de código, la complejidad del sistema se mantiene en O(n) debido a que las iteraciones se siguen realizando una por una y se mantiene una complejidad de O(1) durante todas estas. Por lo que una vez más puedo se puede afirmar que el rendimiento del algoritmo depende totalmente de la longitud de la palabra que recibe.
+
 # Fuentes de información 
 
 Cano, I. R. (2022, 26 octubre). ¿Qué son las Expresiones regulares? (RegEx) - Viewnext.com. Viewnext.com. https://www.viewnext.com/que-son-las-expresiones-regulares-regex
@@ -92,6 +103,8 @@ colaboradores de Wikipedia. (2019, 12 julio). Autómata finito determinista.Wiki
 colaboradores de Wikipedia. (2024, 20 diciembre). Sindarin. Wikipedia, la Enciclopedia Libre. https://es.wikipedia.org/wiki/Sindarin
 
 Equipo editorial de IONOS. (2023, 21 julio). RegEx en Python: cómo funcionan las expresiones regulares en el popular lenguaje de programación. IONOS Digital Guide. https://www.ionos.mx/digitalguide/paginas-web/desarrollo-web/regex-en-python/
+
+OpenAI. (2025, marzo 25). Autómata en Prolog y Python [Conversación con una inteligencia artificial]. OpenAI ChatGPT. https://chat.openai.com/
 
 
 
