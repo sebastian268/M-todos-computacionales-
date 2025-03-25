@@ -40,7 +40,7 @@ Posteriormente se definen cuales son los estados de aceptación mediante la nome
 Para inicializar el procedimieto utilice las lineas de comando de "automata(Lista)" y "aux_automata(Lista, a)" el cual establece la lista de caracteres que se evaluaran y de igual manera establece que estado inicial de autómata es el etsado "a"
 Después se define el caso base, el cual es si la lista de entrada está vacía y el estado actual es "final" el autómata acepta la cadena como válida e imprime en la consola la frase de 'Dentro del lenguaje'; además de eso se define el caso recursivo el cual toma el primer símbolo de la lista y busca un cambio de estado válido mediante la funcion "move" en caso de encontrar un cambio de estado valido, el autómata avanza al siguiente estado y continúa el proceso con el resto de la lista, hasta finalizar con la cadena y verfiicar si termina en un estado de aceptación 
 
-# Pruebas del fincionamiento de la implementación 
+# Pruebas del funcionamiento de la implementación 
 
 ![image](https://github.com/user-attachments/assets/ba8ad02b-14eb-4550-a326-27f4503cd026)
 
@@ -55,6 +55,11 @@ Tomando en cuenta que **autómata = regex** otra forma de representar el autóma
 # Pruebas de la Expresión regular 
 
 ![image](https://github.com/user-attachments/assets/5998be03-0a67-4883-8897-2540a992d0f1)
+
+# Implementación y pruebas de la expresión regular 
+
+Para la implementación del expresión regular utilice python. Para llevar a cabo la implementación hice un poco de investigación de como se hacía un pequeño código en python de una expresión regular.
+Gracias a esta investigación encontre un código el cual utilice como código base (Equipo editorial de IONOS, 2023) y dsobre el cual realice una modificaciones. 
 
 
 
