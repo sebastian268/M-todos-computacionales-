@@ -61,6 +61,13 @@ Tomando en cuenta que **autómata = regex** otra forma de representar el autóma
 Para la implementación del expresión regular utilice python. Para llevar a cabo la implementación hice un poco de investigación de como se hacía un pequeño código en python de una expresión regular.
 Gracias a esta investigación encontre un código el cual utilice como código base (Equipo editorial de IONOS, 2023) y dsobre el cual realice una modificaciones. 
 
+![image](https://github.com/user-attachments/assets/09d6ada1-583f-41b2-9172-f1af6c9e2f87)
+
+los cambiós que relaice en el código base fueron los dos siguientes:
+
+- El cambio más significativo fue que incluí un ciclo infinito en el cual se pide al usuario que ingrese una palabra la cual será analizada mediante la funcion "re.fullmatch" en vez de ingresar una lista con diferente cadenas de manera manual
+- El segundo cambio fue que sustituí la función "re.search" por "re.fullmatch" para que las palabras solo coincidan cuando se analicen de manera completa. (Evitando asi que de casos positivos solo por que contenga la combinanción en alguna parte de la cadena)
+
 
 
 
