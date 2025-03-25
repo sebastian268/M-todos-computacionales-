@@ -74,6 +74,7 @@ los cambiós que relaice en el código base fueron los dos siguientes:
 # Complejidad del sistema.
 
 **Prolog**
+
 El sistema tiene un nivel de complejidad de **O(n)** debido a que en este, a pesar de la recursión, siempre realiza las iteraciones caracter por caracter, por lo que realiza una función a la vez, es decir, solo procesa un elemento por iteración; Y al no haber ciclos dentro de otro ciclo no se generan múltiples llamadas simultáneas que incrementen la complejidad del sistema. Por lo que se podría decir que el rendimiento del algoritmo depende totalmente de la longitud de la lista que recibe la función y no de la cantidad de operaciones que tiene que realizar al mismo timpo.
 
 # ¿Por qué el automáta es determinista?
