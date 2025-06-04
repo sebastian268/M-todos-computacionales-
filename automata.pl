@@ -1,6 +1,7 @@
 % Definición de las transiciones del autómata
 move(from,to,with).
-move(a,b,b).  
+move(a,b,b). 
+move(b,c,a).
 move(c,d,l).  
 move(d,e,r).  
 move(e,f,o).  
